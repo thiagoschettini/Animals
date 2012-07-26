@@ -13,13 +13,24 @@
 		C29618DE15ACB550007E6F4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29618DC15ACB550007E6F4B /* InfoPlist.strings */; };
 		C29618E015ACB550007E6F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C29618DF15ACB550007E6F4B /* main.m */; };
 		C29618E415ACB550007E6F4B /* AnimalsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29618E315ACB550007E6F4B /* AnimalsAppDelegate.m */; };
-		C29618E715ACB550007E6F4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29618E515ACB550007E6F4B /* MainStoryboard.storyboard */; };
 		C29618EA15ACB550007E6F4B /* AnimalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29618E915ACB550007E6F4B /* AnimalsViewController.m */; };
 		C29618F215ACB550007E6F4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29618F115ACB550007E6F4B /* SenTestingKit.framework */; };
 		C29618F315ACB550007E6F4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29618D315ACB550007E6F4B /* UIKit.framework */; };
 		C29618F415ACB550007E6F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29618D515ACB550007E6F4B /* Foundation.framework */; };
 		C29618FC15ACB550007E6F4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29618FA15ACB550007E6F4B /* InfoPlist.strings */; };
 		C29618FF15ACB550007E6F4B /* AnimalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29618FE15ACB550007E6F4B /* AnimalsTests.m */; };
+		C296190E15ACB6AB007E6F4B /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190815ACB6AB007E6F4B /* cachorro.png */; };
+		C296190F15ACB6AB007E6F4B /* elefante.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190915ACB6AB007E6F4B /* elefante.png */; };
+		C296191015ACB6AB007E6F4B /* gato.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190A15ACB6AB007E6F4B /* gato.png */; };
+		C296191115ACB6AB007E6F4B /* leao.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190B15ACB6AB007E6F4B /* leao.png */; };
+		C296191215ACB6AB007E6F4B /* macaco.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190C15ACB6AB007E6F4B /* macaco.png */; };
+		C296191315ACB6AB007E6F4B /* porco.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190D15ACB6AB007E6F4B /* porco.png */; };
+		C296191A15ACBA07007E6F4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C296191915ACBA07007E6F4B /* AudioToolbox.framework */; };
+		C296191C15ACBA85007E6F4B /* elefante.wav in Resources */ = {isa = PBXBuildFile; fileRef = C296191B15ACBA85007E6F4B /* elefante.wav */; };
+		C296192315ACBD2A007E6F4B /* gato.wav in Resources */ = {isa = PBXBuildFile; fileRef = C296191E15ACBD2A007E6F4B /* gato.wav */; };
+		C296192515ACBD2A007E6F4B /* macaco.wav in Resources */ = {isa = PBXBuildFile; fileRef = C296192015ACBD2A007E6F4B /* macaco.wav */; };
+		C2C20F4415ADE5B300F87365 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = C2C20F4315ADE5B300F87365 /* dog.wav */; };
+		C2E8836215ADEBBF00AC480D /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = C2E8836115ADEBBF00AC480D /* beep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +48,32 @@
 		C29618D315ACB550007E6F4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C29618D515ACB550007E6F4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C29618D715ACB550007E6F4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C29618DB15ACB550007E6F4B /* Animals-Info.plist */ = {isa = PBXFileReference; path = "Animals-Info.plist"; sourceTree = "<group>"; };
+		C29618DB15ACB550007E6F4B /* Animals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animals-Info.plist"; sourceTree = "<group>"; };
 		C29618DD15ACB550007E6F4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C29618DF15ACB550007E6F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C29618E115ACB550007E6F4B /* Animals-Prefix.pch */ = {isa = PBXFileReference; path = "Animals-Prefix.pch"; sourceTree = "<group>"; };
-		C29618E215ACB550007E6F4B /* AnimalsAppDelegate.h */ = {isa = PBXFileReference; path = AnimalsAppDelegate.h; sourceTree = "<group>"; };
+		C29618E115ACB550007E6F4B /* Animals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animals-Prefix.pch"; sourceTree = "<group>"; };
+		C29618E215ACB550007E6F4B /* AnimalsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalsAppDelegate.h; sourceTree = "<group>"; };
 		C29618E315ACB550007E6F4B /* AnimalsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalsAppDelegate.m; sourceTree = "<group>"; };
-		C29618E615ACB550007E6F4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C29618E815ACB550007E6F4B /* AnimalsViewController.h */ = {isa = PBXFileReference; path = AnimalsViewController.h; sourceTree = "<group>"; };
+		C29618E815ACB550007E6F4B /* AnimalsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalsViewController.h; sourceTree = "<group>"; };
 		C29618E915ACB550007E6F4B /* AnimalsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalsViewController.m; sourceTree = "<group>"; };
 		C29618F015ACB550007E6F4B /* AnimalsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29618F115ACB550007E6F4B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C29618F915ACB550007E6F4B /* AnimalsTests-Info.plist */ = {isa = PBXFileReference; path = "AnimalsTests-Info.plist"; sourceTree = "<group>"; };
+		C29618F915ACB550007E6F4B /* AnimalsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimalsTests-Info.plist"; sourceTree = "<group>"; };
 		C29618FB15ACB550007E6F4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C29618FD15ACB550007E6F4B /* AnimalsTests.h */ = {isa = PBXFileReference; path = AnimalsTests.h; sourceTree = "<group>"; };
+		C29618FD15ACB550007E6F4B /* AnimalsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalsTests.h; sourceTree = "<group>"; };
 		C29618FE15ACB550007E6F4B /* AnimalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalsTests.m; sourceTree = "<group>"; };
+		C296190815ACB6AB007E6F4B /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cachorro.png; path = WORK/cachorro.png; sourceTree = "<group>"; };
+		C296190915ACB6AB007E6F4B /* elefante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = elefante.png; path = WORK/elefante.png; sourceTree = "<group>"; };
+		C296190A15ACB6AB007E6F4B /* gato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gato.png; path = WORK/gato.png; sourceTree = "<group>"; };
+		C296190B15ACB6AB007E6F4B /* leao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leao.png; path = WORK/leao.png; sourceTree = "<group>"; };
+		C296190C15ACB6AB007E6F4B /* macaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = macaco.png; path = WORK/macaco.png; sourceTree = "<group>"; };
+		C296190D15ACB6AB007E6F4B /* porco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = porco.png; path = WORK/porco.png; sourceTree = "<group>"; };
+		C296191915ACBA07007E6F4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C296191B15ACBA85007E6F4B /* elefante.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = elefante.wav; path = WORK/elefante.wav; sourceTree = "<group>"; };
+		C296191E15ACBD2A007E6F4B /* gato.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gato.wav; path = WORK/gato.wav; sourceTree = "<group>"; };
+		C296192015ACBD2A007E6F4B /* macaco.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = macaco.wav; path = WORK/macaco.wav; sourceTree = "<group>"; };
+		C2C20F4315ADE5B300F87365 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dog.wav; path = WORK/dog.wav; sourceTree = "<group>"; };
+		C2E8836115ADEBBF00AC480D /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = WORK/beep.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C296191A15ACBA07007E6F4B /* AudioToolbox.framework in Frameworks */,
 				C29618D415ACB550007E6F4B /* UIKit.framework in Frameworks */,
 				C29618D615ACB550007E6F4B /* Foundation.framework in Frameworks */,
 				C29618D815ACB550007E6F4B /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +104,9 @@
 		C29618C415ACB54F007E6F4B = {
 			isa = PBXGroup;
 			children = (
+				C2E8836115ADEBBF00AC480D /* beep.wav */,
+				C296191915ACBA07007E6F4B /* AudioToolbox.framework */,
+				C296191415ACB6B0007E6F4B /* New Group */,
 				C29618D915ACB550007E6F4B /* Animals */,
 				C29618F715ACB550007E6F4B /* AnimalsTests */,
 				C29618D215ACB550007E6F4B /* Frameworks */,
@@ -113,7 +139,6 @@
 			children = (
 				C29618E215ACB550007E6F4B /* AnimalsAppDelegate.h */,
 				C29618E315ACB550007E6F4B /* AnimalsAppDelegate.m */,
-				C29618E515ACB550007E6F4B /* MainStoryboard.storyboard */,
 				C29618E815ACB550007E6F4B /* AnimalsViewController.h */,
 				C29618E915ACB550007E6F4B /* AnimalsViewController.m */,
 				C29618DA15ACB550007E6F4B /* Supporting Files */,
@@ -149,6 +174,23 @@
 				C29618FA15ACB550007E6F4B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C296191415ACB6B0007E6F4B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C2C20F4315ADE5B300F87365 /* dog.wav */,
+				C296191E15ACBD2A007E6F4B /* gato.wav */,
+				C296192015ACBD2A007E6F4B /* macaco.wav */,
+				C296191B15ACBA85007E6F4B /* elefante.wav */,
+				C296190815ACB6AB007E6F4B /* cachorro.png */,
+				C296190915ACB6AB007E6F4B /* elefante.png */,
+				C296190A15ACB6AB007E6F4B /* gato.png */,
+				C296190B15ACB6AB007E6F4B /* leao.png */,
+				C296190C15ACB6AB007E6F4B /* macaco.png */,
+				C296190D15ACB6AB007E6F4B /* porco.png */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +265,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29618DE15ACB550007E6F4B /* InfoPlist.strings in Resources */,
-				C29618E715ACB550007E6F4B /* MainStoryboard.storyboard in Resources */,
+				C296190E15ACB6AB007E6F4B /* cachorro.png in Resources */,
+				C296190F15ACB6AB007E6F4B /* elefante.png in Resources */,
+				C296191015ACB6AB007E6F4B /* gato.png in Resources */,
+				C296191115ACB6AB007E6F4B /* leao.png in Resources */,
+				C296191215ACB6AB007E6F4B /* macaco.png in Resources */,
+				C296191315ACB6AB007E6F4B /* porco.png in Resources */,
+				C296191C15ACBA85007E6F4B /* elefante.wav in Resources */,
+				C296192315ACBD2A007E6F4B /* gato.wav in Resources */,
+				C296192515ACBD2A007E6F4B /* macaco.wav in Resources */,
+				C2C20F4415ADE5B300F87365 /* dog.wav in Resources */,
+				C2E8836215ADEBBF00AC480D /* beep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +343,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C29618E515ACB550007E6F4B /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C29618E615ACB550007E6F4B /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
 		C29618FA15ACB550007E6F4B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,9 +402,15 @@
 		C296190315ACB550007E6F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animals/Animals-Prefix.pch";
 				INFOPLIST_FILE = "Animals/Animals-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -369,9 +419,15 @@
 		C296190415ACB550007E6F4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animals/Animals-Prefix.pch";
 				INFOPLIST_FILE = "Animals/Animals-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -430,6 +486,7 @@
 				C296190415ACB550007E6F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C296190515ACB550007E6F4B /* Build configuration list for PBXNativeTarget "AnimalsTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +495,7 @@
 				C296190715ACB550007E6F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
