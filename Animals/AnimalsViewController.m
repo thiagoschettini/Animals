@@ -11,30 +11,36 @@
 
 @implementation AnimalsViewController
 
-@synthesize elefante;
+@synthesize sheep;
 @synthesize cachorro;
 @synthesize gato;
 @synthesize leao;
 @synthesize macaco;
 @synthesize porco;
+@synthesize bg;
 
 -(void)displayAnimals{
-    elefante = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 160, 118)];
-    [elefante setImage:[UIImage imageNamed:@"elefante.png"]];
-    elefante.opaque = YES;
-    [self.view addSubview:elefante];
+    bg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    [bg setImage:[UIImage imageNamed:@"bg.jpg"]];
+    bg.opaque = YES;
+    [self.view addSubview:bg];
+    
+    sheep = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 160, 118)];
+    [sheep setImage:[UIImage imageNamed:@"sheep.png"]];
+    sheep.opaque = YES;
+    [self.view addSubview:sheep];
     
     cachorro = [[UIImageView alloc] initWithFrame:CGRectMake(10, 148, 160, 118)];
     [cachorro setImage:[UIImage imageNamed:@"cachorro.png"]];
     cachorro.opaque = YES;
     [self.view addSubview:cachorro];
     
-    gato = [[UIImageView alloc] initWithFrame:CGRectMake(170, 10, 160, 118)];
+    gato = [[UIImageView alloc] initWithFrame:CGRectMake(160, 10, 160, 118)];
     [gato setImage:[UIImage imageNamed:@"gato.png"]];
     gato.opaque = YES;
     [self.view addSubview:gato];
     
-    leao = [[UIImageView alloc] initWithFrame:CGRectMake(170, 148, 160, 118)];
+    leao = [[UIImageView alloc] initWithFrame:CGRectMake(160, 148, 160, 118)];
     [leao setImage:[UIImage imageNamed:@"leao.png"]];
     leao.opaque = YES;
     [self.view addSubview:leao];
@@ -44,13 +50,61 @@
     macaco.opaque = YES;
     [self.view addSubview:macaco];   
     
-    porco = [[UIImageView alloc] initWithFrame:CGRectMake(170, 286, 160, 118)];
+    porco = [[UIImageView alloc] initWithFrame:CGRectMake(160, 286, 160, 118)];
     [porco setImage:[UIImage imageNamed:@"porco.png"]];
     porco.opaque = YES;
     [self.view addSubview:porco];
 }
 
--(IBAction)playSound:(NSString *)filename {
+-(IBAction)playSound:(UITapGestureRecognizer *)sender {
+    NSString *filename;
+    //NSLog(@"%@", sender.observationInfo);
+
+    if([sender observationInfo] == @"elefante"){
+        filename = @"elefante";
+        /*[UIImageView animateWithDuration:0.3 animations:^{
+            CGRect frame = sheep.frame;
+            frame.origin.x = 20;
+            sheep.frame = frame;
+        }];
+        [UIImageView commitAnimations];
+        [UIImageView animateWithDuration:0.3 animations:^{
+            CGRect frame = sheep.frame;
+            frame.origin.x = 0;
+            sheep.frame = frame;
+        }];
+        [UIImageView commitAnimations];
+        [UIImageView animateWithDuration:0.3 animations:^{
+            CGRect frame = sheep.frame;
+            frame.origin.x = 10;
+            sheep.frame = frame;
+        }];
+        [UIImageView commitAnimations];*/
+        [UIImageView animateWithDuration:0.8 animations:^{
+            CGRect frame = sheep.frame;
+            frame.origin.x = 0;
+            frame.origin.y = 0;
+            frame.size.width = 180;
+            frame.size.height = 133;
+            sheep.frame = frame;
+        }];
+        [UIImageView commitAnimations];
+        [UIImageView animateWithDuration:0.3 animations:^{
+            CGRect frame = sheep.frame;
+            frame.origin.x = 10;
+            frame.origin.y = 10;
+            frame.size.width = 160;
+            frame.size.height = 118;
+            sheep.frame = frame;
+        }];
+        [UIImageView commitAnimations];
+
+    }else if(sender.observationInfo == @"dog"){
+        filename = @"dog";
+    }
+    
+    //filename = sender.observationInfo;
+    NSLog(@"%@", filename);
     SystemSoundID sound1;
     NSURL *soundURL = [[NSBundle mainBundle] URLForResource:filename
                                               withExtension:@"wav"];
@@ -126,20 +180,22 @@
 {
     [super viewDidLoad];
     [self displayAnimals];
-    elefante.userInteractionEnabled = YES;
+    sheep.userInteractionEnabled = YES;
     cachorro.userInteractionEnabled = YES;
     gato.userInteractionEnabled = YES;
     leao.userInteractionEnabled = YES;
     macaco.userInteractionEnabled = YES;
     porco.userInteractionEnabled = YES;
 
-    UITapGestureRecognizer *elefanteTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(playElefante:)];
+    UITapGestureRecognizer *elefanteTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(playSound:)];
     elefanteTap.numberOfTapsRequired = 1;
-    [elefante addGestureRecognizer:elefanteTap];
-    [self.view addSubview:elefante];
+    [elefanteTap setObservationInfo:@"elefante"];
+    [sheep addGestureRecognizer:elefanteTap];
+    [self.view addSubview:sheep];
     
-    UITapGestureRecognizer *cachorroTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(playCachorro:)];
+    UITapGestureRecognizer *cachorroTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(playSound:)];
     cachorroTap.numberOfTapsRequired = 1;
+    cachorroTap.observationInfo = @"dog";
     [cachorro addGestureRecognizer:cachorroTap];
     [self.view addSubview:cachorro];
     

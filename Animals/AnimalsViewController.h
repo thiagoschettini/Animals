@@ -9,20 +9,22 @@
 #import <UIKit/UIKit.h>
 
 @interface AnimalsViewController : UIViewController {
-    UIImageView *elefante;
+    UIImageView *sheep;
     UIImageView *cachorro;
     UIImageView *gato;
     UIImageView *leao;
     UIImageView *macaco;
     UIImageView *porco;
+    UIImageView *bg;
 }
 
-@property (nonatomic, retain) UIImageView *elefante;
+@property (nonatomic, retain) UIImageView *sheep;
 @property (nonatomic, retain) UIImageView *cachorro;
 @property (nonatomic, retain) UIImageView *gato;
 @property (nonatomic, retain) UIImageView *leao;
 @property (nonatomic, retain) UIImageView *macaco;
 @property (nonatomic, retain) UIImageView *porco;
+@property (nonatomic, retain) UIImageView *bg;
 
 -(IBAction)playElefante:(id)sender;
 -(IBAction)playCachorro:(id)sender;

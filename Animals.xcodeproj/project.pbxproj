@@ -20,7 +20,7 @@
 		C29618FC15ACB550007E6F4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29618FA15ACB550007E6F4B /* InfoPlist.strings */; };
 		C29618FF15ACB550007E6F4B /* AnimalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29618FE15ACB550007E6F4B /* AnimalsTests.m */; };
 		C296190E15ACB6AB007E6F4B /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190815ACB6AB007E6F4B /* cachorro.png */; };
-		C296190F15ACB6AB007E6F4B /* elefante.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190915ACB6AB007E6F4B /* elefante.png */; };
+		C296190F15ACB6AB007E6F4B /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190915ACB6AB007E6F4B /* sheep.png */; };
 		C296191015ACB6AB007E6F4B /* gato.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190A15ACB6AB007E6F4B /* gato.png */; };
 		C296191115ACB6AB007E6F4B /* leao.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190B15ACB6AB007E6F4B /* leao.png */; };
 		C296191215ACB6AB007E6F4B /* macaco.png in Resources */ = {isa = PBXBuildFile; fileRef = C296190C15ACB6AB007E6F4B /* macaco.png */; };
@@ -31,6 +31,7 @@
 		C296192515ACBD2A007E6F4B /* macaco.wav in Resources */ = {isa = PBXBuildFile; fileRef = C296192015ACBD2A007E6F4B /* macaco.wav */; };
 		C2C20F4415ADE5B300F87365 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = C2C20F4315ADE5B300F87365 /* dog.wav */; };
 		C2E8836215ADEBBF00AC480D /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = C2E8836115ADEBBF00AC480D /* beep.wav */; };
+		C2F2721D15C9BA9500230BA3 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2F2721C15C9BA9500230BA3 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +64,7 @@
 		C29618FD15ACB550007E6F4B /* AnimalsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalsTests.h; sourceTree = "<group>"; };
 		C29618FE15ACB550007E6F4B /* AnimalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalsTests.m; sourceTree = "<group>"; };
 		C296190815ACB6AB007E6F4B /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cachorro.png; path = WORK/cachorro.png; sourceTree = "<group>"; };
-		C296190915ACB6AB007E6F4B /* elefante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = elefante.png; path = WORK/elefante.png; sourceTree = "<group>"; };
+		C296190915ACB6AB007E6F4B /* sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheep.png; path = WORK/sheep.png; sourceTree = "<group>"; };
 		C296190A15ACB6AB007E6F4B /* gato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gato.png; path = WORK/gato.png; sourceTree = "<group>"; };
 		C296190B15ACB6AB007E6F4B /* leao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leao.png; path = WORK/leao.png; sourceTree = "<group>"; };
 		C296190C15ACB6AB007E6F4B /* macaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = macaco.png; path = WORK/macaco.png; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		C296192015ACBD2A007E6F4B /* macaco.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = macaco.wav; path = WORK/macaco.wav; sourceTree = "<group>"; };
 		C2C20F4315ADE5B300F87365 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dog.wav; path = WORK/dog.wav; sourceTree = "<group>"; };
 		C2E8836115ADEBBF00AC480D /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = WORK/beep.wav; sourceTree = "<group>"; };
+		C2F2721C15C9BA9500230BA3 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = WORK/bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,12 +181,13 @@
 		C296191415ACB6B0007E6F4B /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				C2F2721C15C9BA9500230BA3 /* bg.jpg */,
 				C2C20F4315ADE5B300F87365 /* dog.wav */,
 				C296191E15ACBD2A007E6F4B /* gato.wav */,
 				C296192015ACBD2A007E6F4B /* macaco.wav */,
 				C296191B15ACBA85007E6F4B /* elefante.wav */,
 				C296190815ACB6AB007E6F4B /* cachorro.png */,
-				C296190915ACB6AB007E6F4B /* elefante.png */,
+				C296190915ACB6AB007E6F4B /* sheep.png */,
 				C296190A15ACB6AB007E6F4B /* gato.png */,
 				C296190B15ACB6AB007E6F4B /* leao.png */,
 				C296190C15ACB6AB007E6F4B /* macaco.png */,
@@ -266,7 +269,7 @@
 			files = (
 				C29618DE15ACB550007E6F4B /* InfoPlist.strings in Resources */,
 				C296190E15ACB6AB007E6F4B /* cachorro.png in Resources */,
-				C296190F15ACB6AB007E6F4B /* elefante.png in Resources */,
+				C296190F15ACB6AB007E6F4B /* sheep.png in Resources */,
 				C296191015ACB6AB007E6F4B /* gato.png in Resources */,
 				C296191115ACB6AB007E6F4B /* leao.png in Resources */,
 				C296191215ACB6AB007E6F4B /* macaco.png in Resources */,
@@ -276,6 +279,7 @@
 				C296192515ACBD2A007E6F4B /* macaco.wav in Resources */,
 				C2C20F4415ADE5B300F87365 /* dog.wav in Resources */,
 				C2E8836215ADEBBF00AC480D /* beep.wav in Resources */,
+				C2F2721D15C9BA9500230BA3 /* bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
