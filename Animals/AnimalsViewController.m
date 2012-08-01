@@ -62,24 +62,6 @@
 
     if([sender observationInfo] == @"elefante"){
         filename = @"elefante";
-        /*[UIImageView animateWithDuration:0.3 animations:^{
-            CGRect frame = sheep.frame;
-            frame.origin.x = 20;
-            sheep.frame = frame;
-        }];
-        [UIImageView commitAnimations];
-        [UIImageView animateWithDuration:0.3 animations:^{
-            CGRect frame = sheep.frame;
-            frame.origin.x = 0;
-            sheep.frame = frame;
-        }];
-        [UIImageView commitAnimations];
-        [UIImageView animateWithDuration:0.3 animations:^{
-            CGRect frame = sheep.frame;
-            frame.origin.x = 10;
-            sheep.frame = frame;
-        }];
-        [UIImageView commitAnimations];*/
         [UIImageView animateWithDuration:0.8 animations:^{
             CGRect frame = sheep.frame;
             frame.origin.x = 0;

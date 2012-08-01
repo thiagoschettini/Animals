@@ -9,11 +9,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Animals/AnimalsViewController.m"
-         timestampString = "365543510.386362"
+         timestampString = "365544732.131614"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "190"
-         endingLineNumber = "190"
+         startingLineNumber = "172"
+         endingLineNumber = "172"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Animals/AnimalsViewController.m"
-         timestampString = "365543510.386362"
+         timestampString = "365544732.131614"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "109"
-         endingLineNumber = "109"
+         startingLineNumber = "91"
+         endingLineNumber = "91"
          landmarkName = "-playSound:"
          landmarkType = "5">
       </FileBreakpoint>
